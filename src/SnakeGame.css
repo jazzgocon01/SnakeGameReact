@@ -1,0 +1,66 @@
+#GameBoard {
+	position: relative;
+	margin: auto;
+	border-style: solid;
+}
+
+#GameBoard .Block {
+	position: absolute;
+}
+
+#GameBoard #GameOver {
+	text-align: center;
+	height: 100%;
+	flex-direction: column;
+	display: flex;
+	justify-content: space-around;
+	color: #cccccc;
+
+}
+
+#GameBoard #Score {
+	position: relative;
+	top: 105%;
+	text-align: center;
+	font-weight: bold;
+	color: #cccccc;
+
+}
+
+#GameBoard #GameOverText {
+	
+	font-size: 30px;
+      font-style: 'Press Start 2p';
+      text-align: center;
+        display: inline-block;
+        margin:5px;
+      font-weight: bold;
+      padding: 10px 0 10px 10px ;
+      background-color: lightgray;
+      text-shadow: -1px -1px black, 1px 1px white;
+      color: red;
+      -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -o-border-radius: 7px;
+        border-radius: 7px;
+      box-shadow: 0 .2em gray; 
+      cursor: pointer;
+}
+
+#GameBoard #PressSpaceText {
+	color: #2e7ecb;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: 'Press Start 2p';
+	text-align: center;
+	display: inline-block;
+	margin:5px;
+	font-weight: bold;
+	padding: 10px 0 10px 10px ;
+	text-shadow: -1px -1px black, 1px 1px white;
+	-webkit-border-radius: 7px;
+	  -moz-border-radius: 7px;
+	  -o-border-radius: 7px;
+	  border-radius: 7px;
+	cursor: pointer;
+}
